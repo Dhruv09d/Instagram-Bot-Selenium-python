@@ -6,7 +6,7 @@ driver = webdriver.Chrome('chromedriver.exe')
 
 driver.get('https://www.instagram.com/accounts/login/?hl=en')
 time.sleep(6)
-#name = 'Pocchiiii 😘' # do paste same emoji if name have any
+
 user_name_element =  driver.find_element_by_xpath('//*[@id="loginForm"]/div/div[1]/div/label/input')
 username = "Enter you usename/email here"
 user_name_element.send_keys(username) # username or id
@@ -24,7 +24,7 @@ time.sleep(1)
 direct = driver.find_element_by_xpath('//*[@id="react-root"]/section/nav/div[2]/div/div/div[3]/div/div[2]/a').click()
 time.sleep(4)
 
-user = driver.find_element_by_xpath('//div[contains(text(),"i_satyamkumar")]').click() # target username
+user = driver.find_element_by_xpath('//div[contains(text(),"target_username")]').click() # target username
 
 time.sleep(1)
 
