@@ -31,7 +31,7 @@ time.sleep(1)
 list = ['lal', 'noo', 'never', 'pk', 'miss']
 nom = int(input("enter the no of msg to be send: "))
 i = 1
-while i< 30:
+while i< nom:
     try:
         msg_box = driver.find_element_by_xpath('//*[@id="react-root"]/section/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div/div[2]/textarea')
         a = random.randint(0, 4)
