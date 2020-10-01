@@ -28,7 +28,7 @@ user = driver.find_element_by_xpath('//div[contains(text(),"target_username")]')
 
 time.sleep(1)
 
-list = ['LOL', 'hii', 'hehe', 'ohhooo', 'lalalalalal']
+list = ['lal', 'noo', 'never', 'pk', 'miss']
 i = 1
 while i< 3001:
     try:
